@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">RecScores</string>
+    <string name="loggedin">User Logged In</string>
+    <string name="editprofile">Edit Profile</string>
+ 
+    <!--CREATE TEAM START  --> 
+    <string name="createteam">Create Team</string>
+    <string name="teamname">Team Name</string>
+    <string name="sport">Sport</string>
+    <string name="city">City</string>
+    <string name="createroster">Create Roster</string>
+    <!--CREATE TEAM  END  --> 
+
+   <!--CREATE ROSTER START  --> 
+    <string name="firstname">First Name Last Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phonenum">Phone #</string>
+    <string name="createplayer">Create Player</string>
+    <!--CREATE Roster END  --> 
+
+   <!--REGISTER --> 
+	<string name="First_and_Last_Name">Type Full Name</string>
+	<string name="action_sign_up">Sign Up</string>
+
+	
+	
+	
+	   <!--CONTACT MANAGER--> 
+	 <string name="accountSpinnerLabel">Account</string>
+    <string name="addContactButtonLabel">Add Contact</string>
+    <string name="addContactTitle">Add Contact</string>
+    <string name="allAccounts">All Accounts</string>
+   
+    <string name="contactCreationFailure">Contact creation failed, check logs.</string>
+    <string name="contactEmailLabel">Contact Email</string>
+    <string name="contactNameLabel">Contact Name</string>
+    <string name="contactPhoneLabel">Contact Phone</string>
+    <string name="save">Save</string>
+    <string name="selectAccountLabel">Select</string>
+    <string name="selectLabel">Select label</string>
+    <string name="showInvisible">Show Invisible Contacts (Only)</string>
+    <string name="targetAccountLabel">Target Account</string>
+    <string name="undefinedTypeLabel">(Undefined)</string>
+	 
+</resources>

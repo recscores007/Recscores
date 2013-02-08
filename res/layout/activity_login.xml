@@ -1,0 +1,161 @@
+<!-- <merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginActivity" > -->
+
+<!-- Login Form -->
+
+    <!-- <RelativeLayout
+        android:id="@+id/login_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="@drawable/background" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/login_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/login_progress_signing_in"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout> -->
+
+<!-- Login Form Ends -->
+
+
+
+        <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/login_form"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal">
+    
+            
+            <EditText 
+                android:id="@+id/email" 
+                android:hint="@string/prompt_email" 
+                android:inputType="textEmailAddress" 
+                android:singleLine="true"
+                
+                android:ems="10" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:gravity="center" 
+               android:maxLines="1" 
+                android:layout_marginTop="30dp"
+               android:layout_marginBottom="30dp"
+                >
+               
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/password"
+                android:hint="@string/prompt_password"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                
+                android:layout_width="fill_parent"
+                android:gravity="center" 
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                 android:layout_marginTop="30dp"
+                 android:layout_marginBottom="30dp"
+                android:singleLine="true"
+                
+                 />
+
+             <Button
+                 android:id="@+id/sign_in_button"
+                  android:text="@string/action_sign_in_short"
+                 android:background="@drawable/red_button"
+                 style="@+style/button_text"
+                 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+                 android:layout_marginBottom="30dp"           
+                 android:paddingLeft="25dp"
+                 android:paddingRight="25dp"
+                
+                 
+                 />
+
+             <Button
+                 android:id="@+id/register"
+                 style="@+style/button_text"
+                  android:text="@string/action_sign_in_register"
+                 android:background="@drawable/red_button"
+                 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                  android:layout_marginTop="70dp"
+                 android:layout_marginBottom="30dp"
+                  android:paddingLeft="15dp"
+                 android:paddingRight="15dp"
+                  />
+ 
+ </LinearLayout> 
+<!-- </merge> -->
+
+
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget38"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<EditText
+	android:id="@+id/widget34"
+	android:layout_width="240dp"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="100dp"
+	android:text="Password"
+	android:textSize="10sp"
+	android:gravity="center"
+	android:layout_above="@+id/signin"
+	android:layout_centerHorizontal="true" />
+<Button
+	android:id="@+id/Signup"
+	android:layout_width="125dp"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="200dp"
+	android:text="Sign Up"
+	android:textSize="15sp"
+	android:layout_alignParentBottom="true"
+	android:layout_alignLeft="@+id/signin" />
+<EditText
+	android:id="@+id/widget40"
+	android:layout_width="240dp"
+	android:layout_height="wrap_content"
+	android:text="Email"
+	android:textSize="10sp"
+	android:gravity="center"
+	android:layout_above="@+id/widget34"
+	android:layout_alignLeft="@+id/widget34" />
+<Button
+	android:id="@+id/signin"
+	android:layout_width="125dp"
+	android:layout_height="wrap_content"
+	android:text="Sign In"
+	android:textSize="15sp"
+	android:gravity="center"
+	android:layout_centerVertical="true"
+	android:layout_centerHorizontal="true" />
+</RelativeLayout> -->

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal" >
+
+
+
+    <EditText
+        android:id="@+id/teamname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+       android:gravity="center"
+        android:hint="@string/teamname"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:textColor="@color/green"
+        android:textSize="@dimen/radio_button_text" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/teamcity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        
+        android:gravity="center"
+        android:hint="@string/city"
+        android:inputType="text"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/radio_button_text" />
+
+    <RadioGroup
+        android:id="@+id/pick_sport"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        
+         >
+
+        <RadioButton
+            android:id="@+id/cricket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Cricket"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/radio_button_text" />
+
+        <RadioButton
+            android:id="@+id/soccer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soccer"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/radio_button_text" />
+       
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/create_roster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="75dp"
+        
+       
+        android:text="@string/createroster" 
+        android:background="@drawable/red_button"
+          style="@+style/button_text"/>
+
+</LinearLayout>

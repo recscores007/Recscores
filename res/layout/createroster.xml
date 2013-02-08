@@ -1,0 +1,63 @@
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center" >
+    
+    <AutoCompleteTextView
+    android:id="@+id/fln"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+        android:hint="@string/firstname"
+        android:inputType="textPersonName" >
+</AutoCompleteTextView>
+       <!-- <EditText
+        android:id="@+id/fln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="30dp" 
+         android:layout_marginBottom="30dp" 
+        android:ems="10"
+        android:hint="@string/firstname"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/radio_button_text" >
+
+        <requestFocus />
+    </EditText> -->
+    <Button
+        android:id="@+id/addBtn"
+        android:text="@string/createplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addItems"
+         android:background="@drawable/red_button"
+          style="@+style/button_text"
+        android:layout_marginBottom="20dp" />
+    
+    <ListView android:id="@id/android:list"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	
+	android:layout_weight="2"
+	android:drawSelectorOnTop="false">
+</ListView>
+<TextView android:id="@id/android:empty"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	
+	android:text="No data"
+/>
+   
+  <!--   <ListView
+        android:id="@android:id/list"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="false"
+    />  -->
+</LinearLayout>
